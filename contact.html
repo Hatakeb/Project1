@@ -23,6 +23,29 @@
     </header>
     <main>
         <h1>Contactpage</h1>
+
+        <form>
+            <label for="firstName">First Name</label><br>
+            <input type="text" name="firstName" placeholder="Ben" required><br>
+
+            <label for="lastName">Last Name</label><br>
+            <input type="text" name="lastName" placeholder="Pendragon" required><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" name="Email" id="email" placeholder="pendragon@gmail.com"><br>
+
+            <label for="gender">Gender</label><br>
+            <select name="gender" id="gender">
+                <option disabled selected hidden>Select gender </option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br>
+
+            <label for="message">Message</label><br>
+            <textarea name="message" id="message"></textarea><br>
+
+            <button type="submit">Send</button>
+        </form>
     </main>
 </body>
 </html>
